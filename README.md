@@ -19,14 +19,14 @@ https://www.allmovie.com/advanced-search
 
 - The following objects to scrape to create a potentially good algorithim
 
-*Title
-*Genre
-*Rating
-*Votes
-*Movie critics/Reviews
-*Year
-*Duration
---- Extras ---
+*Title |
+*Genre |
+*Rating |
+*Votes |
+*Movie critics/Reviews |
+*Year |
+*Duration }
+| --- Extras --- |
 *Movie image
 *Link to Imbd
 
