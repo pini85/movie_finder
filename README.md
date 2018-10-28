@@ -1,10 +1,9 @@
-Good to learn about scrapping with Nokogiri, open-uri and Mechanize gems before proceeding.
+Good to learn about scrapping with Nokogiri, open-uri and Mechanize gems before proceeding.<br>
 
--Nokogiri and open-uri basics in Le Wagon lecture.
--Nokogiri tutorials:
-
-http://ruby.bastardsbook.com/chapters/html-parsing/
-http://www.nokogiri.org/tutorials/searching_a_xml_html_document.html
+-Nokogiri and open-uri basics in Le Wagon lecture.<br>
+-Nokogiri tutorials:<br>
+<a href = "http://ruby.bastardsbook.com/chapters/html-parsing/"><br>
+http://www.nokogiri.org/tutorials/searching_a_xml_html_document.html<br>
 
 -Mechanize tutorials:
 http://ruby.bastardsbook.com/chapters/mechanize/
