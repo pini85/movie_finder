@@ -27,7 +27,7 @@ https://www.allmovie.com/advanced-search
 *Year |
 *Duration |
 *Movie image |
-*Link to Imbd |
+*Link to Imbd | <br>
 *(<em>Anything else?</em>)
 
 2) After you can get all of this data. Need to build models to store the data with Active Record to help retrieve that data to make algoritihims.
