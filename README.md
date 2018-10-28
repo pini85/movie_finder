@@ -15,7 +15,7 @@ http://tutorials.jumpstartlab.com/topics/mechanize.html
 Something like this website. But much more user-friendly:
 https://www.allmovie.com/advanced-search
 
-***I put all the scrapping logic in the pages controller just for testing. After that need to make a new project with the proper models.
+***I put all the scrapping logic in the pages controller just for testing. After that need to make a new project with the proper models.***
 
 - The following objects to scrape to create a potentially good algorithim
 
