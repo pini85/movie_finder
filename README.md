@@ -5,9 +5,8 @@ http://ruby.bastardsbook.com/chapters/html-parsing/
 http://www.nokogiri.org/tutorials/searching_a_xml_html_document.html
 
 -Mechanize tutorials:
-
-
-
+http://ruby.bastardsbook.com/chapters/mechanize/
+http://tutorials.jumpstartlab.com/topics/mechanize.html
 
 1)The idea of this app is to scrape movie data from across Imbd, Rotten Tomatoes and Meta-critic.
 
@@ -24,11 +23,13 @@ https://www.allmovie.com/advanced-search
 *Genre
 *Rating
 *Votes
+*Movie critics/Reviews
 *Year
 *Duration
+--- Extras ---
 *Movie image
 *Link to Imbd
-*Movie critics/Reviews
+
 *(Anything else?)
 
 2) After you can get all of this data. Need to build models to store the data with Active Record to help retrieve that data to make algoritihims.
