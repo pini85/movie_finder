@@ -1,0 +1,62 @@
+  --  def name
+   --   @name = []
+   --
+   --   html_content = open("https://www.imdb.com/list/ls057823854/?sort=list_order,asc&st_dt=&mode=detail&page=1").read
+   --   doc = Nokogiri::HTML(html_content)
+   --  doc.css("a.flat-button.lister-page-next.next-page").each do |title|
+   --      @name = title.text.strip
+   --
+   --   # How to target only the rating no the other elements
+   -- #  ratings = []
+
+   #  html_content = open("https://www.imdb.com/list/ls057823854/?sort=list_order,asc&st_dt=&mode=detail&page=99").read
+   #  while (html_content) do
+   #  doc = Nokogiri::HTML(html_content)
+   #  doc.search(".ipl-rating-star__rating").each do |rating|
+   #    ratings << rating.text.strip
+   #  end
+   #  @rating = ratings.reject do |i|
+   #    ["Rate","0","1","2","3","4","5","6","7","8","9","10"].include? i
+   #   end
+   # end
+
+     -- link = doc.css("a.flat-button.lister-page-next.next-page")
+     --  html_content = link && link[0]['href'] #=> url is nil if no link is found on the page
+    -- end
+     @name = []
+     html_content = open("https://www.imdb.com/list/ls057823854/?sort=list_order,asc&st_dt=&mode=detail&page=1").read
+     doc = Nokogiri::HTML(html_content)
+     doc.search(".lister-item-header/a").each do |title|
+       @name << title.text.strip
+   #  end
+   #  @genre = []
+   #  html_content = open("https://www.imdb.com/list/ls057823854/?sort=list_order,asc&st_dt=&mode=detail&page=1").read
+   #  doc = Nokogiri::HTML(html_content)
+   #  doc.search(".genre").each do |genre|
+   #    @genre << genre.text.strip
+
+
+   #  end
+   # #  # How to target the specific scr or display the images
+   #  @poster = []
+   #  html_content = open("https://www.imdb.com/list/ls057823854/?sort=list_order,asc&st_dt=&mode=detail&page=1").read
+   #  doc = Nokogiri::HTML(html_content)
+   #  doc.css(".lister-item-image/a/@src").map do |i|
+   #   @poster << i
+   #  end
+   #  @votes = []
+   #  html_content = open("https://www.imdb.com/list/ls057823854/?sort=list_order,asc&st_dt=&mode=detail&page=1").read
+   #  doc = Nokogiri::HTML(html_content)
+   # doc.css('div.lister-item-content > p.text-muted > span[name = nv]:nth-child(2)').map do |i|
+   #    @votes << i.text.strip
+
+   #  end
+  #  page = [1..2]
+  #   @year = []
+  #   html_content = open("https://www.imdb.com/list/ls057823854/?sort=list_order,asc&st_dt=&mode=detail&page={page}").read
+  #     doc = Nokogiri::HTML(html_content)
+  #     doc.css("a.flat-button.lister-page-next.next-page").each do |i|
+  #     @year << i.text.strip.to_s.gsub(/[(),I]/, "")
+  #   end
+  # end
+end
