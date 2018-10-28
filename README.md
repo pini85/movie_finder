@@ -1,7 +1,7 @@
 Good to learn about scrapping with Nokogiri, open-uri and Mechanize gems before proceeding.<br>
 
 -Nokogiri and open-uri basics in Le Wagon lecture.<br>
--Nokogiri tutorials:<br>
+-Nokogiri tutorials:
 <a href = "http://ruby.bastardsbook.com/chapters/html-parsing/"><br>
 http://www.nokogiri.org/tutorials/searching_a_xml_html_document.html<br>
 
@@ -33,7 +33,7 @@ Link to Imbd | <br>
 
 <strong>2) After you can get all of this data. Need to build models to store the data with Active Record to help retrieve that data to make algoritihims.</strong><br>
 
-<em>- A user can login and get his saved search algorithims by name.</em>>br>
+<em>- A user can login and get his saved search algorithims by name.</em><br>
 
 Also option of programs default search algorithims. For different criterias for example:<br>
 
