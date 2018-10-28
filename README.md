@@ -25,12 +25,10 @@ https://www.allmovie.com/advanced-search
 *Votes |
 *Movie critics/Reviews |
 *Year |
-*Duration }
-| --- Extras --- |
-*Movie image
-*Link to Imbd
-
-*(Anything else?)
+*Duration |
+*Movie image |
+*Link to Imbd |
+*(<em>Anything else?</em>)
 
 2) After you can get all of this data. Need to build models to store the data with Active Record to help retrieve that data to make algoritihims.
 
